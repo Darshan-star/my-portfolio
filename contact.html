@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+  <title>Document</title>
+</head>
+<body>
+  
+      <header class="nav-header">
+    <h1><a href="./index.html" id="logo">Honey.</a></h1>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+    </div>
+  </header>
+
+  <section class="about" >
+    <div class="left">
+        <div class="titles">
+        <h3 class="about_subtitle">Contact</h3>
+        <h1 class="about_title">Get in touch<span class="text-accent">:</span></h1>
+      </div>
+    </div>
+    <div class="right">
+      <!-- <div class="bear"> -->
+        <img src="./img/bear.gif" alt="bear">
+        <h1 class="right-content">Say hi. <span class="text-accent">Like this bear</span> </h1>
+<div class="form-submit">
+
+  <form id="contact">
+    <div class="form-group">
+      
+      <input type="text" class="form-control" id="name" name="name" placeholder=" your Email" required>
+    </div>
+    <div class="form-group">
+      
+      <textarea type="email" class="form-control" id="message" name="message" placeholder="Message"
+      required></textarea>
+    </div>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</div>
+    
+  </section> 
+
+
+  <nav class="nav-bar">
+    <ul class="nav-links">
+      <h3> <a href="https://twitter.com/_Honey_9__" target="_blank" > Twitter</a> </h3>
+      <h3><a href="https://codepen.io/your-work" target="_blank">Codepen</a></h3>
+      <h3> <a href="https://www.linkedin.com/in/honey-1287b91aa" target="_blank" >LinkedIn</a>
+      </h3>
+    </ul>
+    <div class="contact">
+      <h2>Stay in touch.</h2>
+      
+    </div>
+  </nav>
+  <div class="cursor">
+    <span class="cursor-text"></span>
+  </div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDt_4s17euCuZhdh4GiAxJgUnR3cDtR5eo",
+    authDomain: "portfolio-d1126.firebaseapp.com",
+    projectId: "portfolio-d1126",
+    storageBucket: "portfolio-d1126.appspot.com",
+    messagingSenderId: "36447693258",
+    appId: "1:36447693258:web:2fb65d6b3dc54cf1310733",
+    measurementId: "G-GJ7SVNVE4P"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+  integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c="
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+  integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8="
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+  integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo="
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+  integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw="
+  crossorigin="anonymous"
+></script>
+<script src="./app2.js"></script>
+</body>
+</html>
