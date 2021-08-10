@@ -128,18 +128,19 @@ main {
   cursor: pointer;
 }
 .nav-links {
-  font-size: 3rem;
-  flex-basis: 30rem;
+  font-size: 2rem;
+  flex-basis: 5rem;
 }
 .nav-links h3 {
-  padding: 3rem 0rem;
+  padding: 1rem 0rem;
 }
 .contact {
   flex-basis: 30rem;
 }
 .contact h2 {
   font-size: 3rem;
-  padding: 2rem 0rem;
+  padding: 8rem 4rem 10rem 5rem;
+  background-color:LightBlue;
 }
 .contact p {
   font-size: 1.5rem;

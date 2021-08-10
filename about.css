@@ -44,11 +44,11 @@
   cursor: pointer;
 }
 .nav-links {
-  font-size: 3rem;
-  flex-basis: 30rem;
+  font-size: 1rem;
+  flex-basis: 5rem;
 }
 .nav-links h3 {
-  padding: 3rem 0rem;
+  padding: 2rem 0rem;
 }
 .touch {
   flex-basis: 30rem;
@@ -290,17 +290,22 @@ section#location p {
   }
 }
 
-section#location > .content {
+ section#location > .content {
     flex-direction: column;
-  }
+  } 
   .location-text {
     width: 100%;
-    margin-right: 0px;
+    margin-left: 50%;
     margin-bottom: 24px;
   }
   .location-map {
-    width: 100%;
+    width: 30%;
   }
 
 
 
+  a { 
+    color: inherit;
+    text-decoration: none;
+  }
+  
